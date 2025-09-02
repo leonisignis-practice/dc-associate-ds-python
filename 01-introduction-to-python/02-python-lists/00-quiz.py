@@ -17,3 +17,7 @@ print(x[-1])  # 5
 p = ["a", "r", "y", "v", "k", "s"]
 del p[1:3]
 print(p)
+
+# 5.
+# What is an index of a list typically used for?
+# To select elements from a list
