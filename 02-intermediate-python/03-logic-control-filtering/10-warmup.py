@@ -5,3 +5,5 @@ elif area < 12:
     print("medium")
 else:
     print("large")
+
+# "medium will be printed out"
