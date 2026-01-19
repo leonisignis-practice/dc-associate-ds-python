@@ -9,11 +9,14 @@ import pandas as pd
 
 homelessness = pd.read_csv(path)
 
-# Print the values of homelessness
-print(homelessness.values)
+# Print the head of the homelessness data
+print(homelessness.head())
 
-# Print the column index of homelessness
-print(homelessness.columns)
+# Print information about homelessness
+print(homelessness.info())
 
-# Print the row index of homelessness
-print(homelessness.index)
+# Print the shape of homelessness
+print(homelessness.shape)
+
+# Print a description of homelessness
+print(homelessness.describe())
